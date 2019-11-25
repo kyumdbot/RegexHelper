@@ -18,7 +18,7 @@ let str1 = RegexHelper.gsub(pattern: pattern, string: string, replacement: repla
 
     
 let replacement2 = #"*"#
-let newStr2 = RegexHelper.gsub(pattern: pattern, string: string, replacement: replacement2) //=> "h*ll*"
+let str2 = RegexHelper.gsub(pattern: pattern, string: string, replacement: replacement2) //=> "h*ll*"
 ```
 
 ### RegexHelper.firstMatch() :
