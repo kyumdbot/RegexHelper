@@ -7,7 +7,7 @@ Add `RegexHelper.swift` to your project.
 
 ## Examples
 
-### RegexHelper.gsub() :
+### RegexHelper.gsub()
 
 ```
 let string = "hello"
@@ -21,7 +21,7 @@ let replacement2 = #"*"#
 let str2 = RegexHelper.gsub(pattern: pattern, string: string, replacement: replacement2) //=> "h*ll*"
 ```
 
-### RegexHelper.firstMatch() :
+### RegexHelper.firstMatch()
 
 ```
 let string = "hello"
@@ -30,7 +30,7 @@ let matches = RegexHelper.firstMatch(pattern: pattern, string: string) //=> ["ll
 ```
 
 
-### RegexHelper.match() :
+### RegexHelper.match()
 
 ```
 let string = "cruel world"
