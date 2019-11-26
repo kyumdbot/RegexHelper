@@ -16,7 +16,6 @@ let pattern = #"([aeiou])"#
 let replacement1 = #"<$1>"#
 let str1 = RegexHelper.gsub(pattern: pattern, string: string, replacement: replacement1) //=> "h<e>ll<o>"
 
-    
 let replacement2 = #"*"#
 let str2 = RegexHelper.gsub(pattern: pattern, string: string, replacement: replacement2) //=> "h*ll*"
 ```
